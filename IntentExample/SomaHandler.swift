@@ -28,6 +28,7 @@ public class SomaHandler: NSObject, SomaIntentHandling {
         completion(sucesso)
     }
     
+    // Valor X
     public func resolveX(for intent: SomaIntent, with completion: @escaping (SomaXResolutionResult) -> Void) {
         
         if let x = intent.x {
@@ -38,6 +39,7 @@ public class SomaHandler: NSObject, SomaIntentHandling {
         }
     }
     
+    // Valor Y
     public func resolveY(for intent: SomaIntent, with completion: @escaping (SomaYResolutionResult) -> Void) {
         
         if let y = intent.y {
